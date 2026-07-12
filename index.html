@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Arman Cabalfin — Web Dev &amp; Freelancer</title>
+<meta name="description" content="John Arman Cabalfin — Freelancer For Business Public Website and Capstone Project. Barangay Management System, OJT/Internship tracking platforms, home-service booking systems, and full-stack Firebase development.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="John Arman Cabalfin — Freelancer For Business Public Website and Capstone Project">
+<meta property="og:description" content="Freelancer For Business Public Website and Capstone Project . Barangay Management System, OJT/Internship tracking platforms, home-service booking systems, Firebase development, and ThesisTrack, PC game downloader.">
+<meta property="og:image" content="assets/image/OJT%20System/Home.png">
+<meta property="og:url" content="https://your-domain-here.com">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="John Arman Cabalfin — Freelancer For Business Public Website and Capstone Project">
+<meta name="twitter:description" content="Freelancer For Business Public Website and Capstone Project. Barangay Management System, OJT/Internship tracking platforms, home-service booking systems, Firebase development, and ThesisTrack, PC game downloader.">
+<meta name="twitter:image" content="assets/image/OJT%20System/Home.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="#top" class="nav-logo"><span class="mark">JC</span> John Arman Cabalfin</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div style="display:flex; align-items:center; gap:14px;">
+      <span class="nav-status"><span class="dot"></span> Available for work</span>
+      <a href="https://github.com/JohnArmanCabalfin/johnarman-portfolio" target="_blank" rel="noopener" style="color:var(--text-secondary,#a0a0a0); font-size:14px; text-decoration:none; display:flex; align-items:center; gap:5px;">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </a>
+      <a href="#contact" class="nav-cta">Get a quote</a>
+      <button class="nav-burger" id="burgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#services">Services</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#contact">Contact</a>
+  <a href="https://github.com/JohnArmanCabalfin/johnarman-portfolio" target="_blank" rel="noopener">GitHub</a>
+  <a href="#contact" class="nav-cta">Get a quote</a>
+</div>
+
+<main id="top">
+
+<section class="hero grid-bg">
+  <div class="container hero-inner">
+    <div class="terminal"><span class="prompt">$</span> <span id="typeLine"></span><span class="cursor"></span></div>
+    <h1>Web systems built to be <em>graded</em>, <em>deployed</em>, and actually used.</h1>
+    <p class="lede">I'm John Arman Cabalfin — a Philippines-based freelancer who designs and ships complete, role-based systems: barangay portals, school platforms, and business tools. HTML, CSS, JavaScript, and Firebase, end to end.</p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn btn-primary">View projects ↓</a>
+      <a href="#contact" class="btn btn-outline">Let's talk →</a>
+    </div>
+    <div class="hero-stats">
+      <div><span class="num">05</span><span class="label">systems designed &amp; shipped end&#8209;to&#8209;end</span></div>
+      <div><span class="num">15</span><span class="label">Firestore collections modeled in a single schema</span></div>
+      <div><span class="num">1</span><span class="label">frameworks — plain HTML / CSS Tailwind / JS, by choice</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">About me</span>
+      <h2>The person behind the systems.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="avatar">JC</div>
+        <h3>John Arman Cabalfin</h3>
+        <div class="role">IT Support &amp; Freelancer</div>
+        <div class="about-meta">
+          <div><span>Based in</span><span>Philippines</span></div>
+          <div><span>Stack</span><span>HTML · CSS · JS · Firebase</span></div>
+          <div><span>Focus</span><span>Capstone Project & Business Public Website</span></div>
+          <div><span>Status</span><span style="color:var(--accent);">Open to projects</span></div>
+        </div>
+      </div>
+      <div class="about-body">
+        <p>I design and build complete, role-based web systems — the kind real offices, schools, and small businesses run their day-to-day on. My work spans civic tech (a full barangay e-government portal), ed-tech (an internship-tracking platform used across four user roles), field-service management (a home-service booking and dispatch platform branded HomeServe, spanning four roles), and consumer platforms (a PC game distribution site with its own software library and hardware checker).</p>
+        <p>I handle a system <strong>end to end</strong>: database design, authentication, security rules, and interface — usually with Firebase as the backend, and plain HTML, CSS Tailwind, and JavaScript on the front. No build step, by choice — it keeps the finished project fast, dependency-free, and easy for a client (or another developer) to maintain long after I hand it off.</p>
+
+        <div class="skills-row">
+          <span class="skill-pill">HTML5</span>
+          <span class="skill-pill">CSS3</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">Firebase Auth</span>
+          <span class="skill-pill">Cloud Firestore</span>
+          <span class="skill-pill">Firebase Storage</span>
+          <span class="skill-pill">Security Rules</span>
+          <span class="skill-pill">Firebase Hosting</span>
+        </div>
+
+        <div class="exp-list">
+          <div class="exp-item">
+            <span class="tick">01</span>
+            <p><strong>Database design that holds up.</strong> I model real schemas before writing a line of UI — OJTTrack alone runs on a 15-collection Firestore schema with documented relationships, not an ad-hoc set of tables bolted on later.</p>
+          </div>
+          <div class="exp-item">
+            <span class="tick">02</span>
+            <p><strong>Access control that's actually enforced.</strong> Every system I ship separates roles (admin, staff, resident, student…) with Firestore Security Rules — permissions live on the server side, not just hidden buttons in the UI.</p>
+          </div>
+          <div class="exp-item">
+            <span class="tick">03</span>
+            <p><strong>Real workflows, not just CRUD.</strong> Sequential document control numbers issued through Firestore transactions, admin-gated password resets, approval queues for name changes, client-side PDF/ID generation — the small operational details that make a system usable by non-technical staff.</p>
+          </div>
+          <div class="exp-item">
+            <span class="tick">04</span>
+            <p><strong>Ships as a static site.</strong> Firebase Hosting plus security rules is the entire backend — no server to patch or pay for, which keeps ongoing costs low for a barangay office, a school, or a small business.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block grid-bg" id="projects">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Projects — 04 shipped</span>
+      <h2>Selected systems.</h2>
+      <p>Five complete builds, each with real users, real roles, and a real database behind it — not landing-page mockups. Click any card for the full case study and screenshots.</p>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid"><!-- cards injected by JS --></div>
+  </div>
+</section>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <div>
+        <h3 id="modalTitle"></h3>
+        <div class="modal-tagline" id="modalTagline"></div>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+    </div>
+
+    <div class="modal-section">
+      <h4>Description</h4>
+      <p id="modalDesc"></p>
+    </div>
+
+    <div class="modal-section">
+      <h4>Tech stack</h4>
+      <div class="modal-stack" id="modalStack"></div>
+    </div>
+
+    <div class="modal-section" id="modalRolesWrap">
+      <h4>User roles</h4>
+      <div class="modal-roles" id="modalRoles"></div>
+    </div>
+
+    <div class="modal-section">
+      <h4>Features</h4>
+      <ul class="modal-features" id="modalFeatures"></ul>
+    </div>
+
+    <div class="modal-section">
+      <h4>Screenshots</h4>
+      <div class="gallery-main">
+        <img id="galleryImg" src="" alt="">
+        <button class="gallery-nav gallery-prev" id="galleryPrev" aria-label="Previous screenshot">‹</button>
+        <button class="gallery-nav gallery-next" id="galleryNext" aria-label="Next screenshot">›</button>
+      </div>
+      <div class="gallery-caption" id="galleryCaption"></div>
+      <div class="gallery-thumbs" id="galleryThumbs"></div>
+    </div>
+
+  </div>
+</div>
+
+<section class="block" id="services">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Services</span>
+      <h2>What I can build for you.</h2>
+      <p>Every service below is something I've actually shipped in one of the five systems above — not a generic list.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <span class="num">01</span>
+        <h3>Custom Web Development</h3>
+        <p>Business or portfolio sites built from scratch in HTML, CSS, and JavaScript — fast-loading, no page-builder bloat underneath.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">02</span>
+        <h3>Capstone System Development</h3>
+        <p>Full thesis/capstone systems built end to end — requirements, database design, a working prototype, and documentation you can defend in front of a panel.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">03</span>
+        <h3>System Customization</h3>
+        <p>Already have a system that's close but not quite right? I extend, refactor, or restyle existing codebases — including ones I didn't originally build.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">04</span>
+        <h3>Database Design</h3>
+        <p>Firestore schema design — collections, relationships, and query-ready structures. The same modeling behind OJTTrack's 15-collection schema.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">05</span>
+        <h3>Firebase Integration</h3>
+        <p>Authentication, Firestore, Storage, and Hosting — plus Security Rules that actually enforce your access model, not just hide buttons in the UI.</p>
+      </div>
+      <div class="service-card">
+        <span class="num">06</span>
+        <h3>Technical Support</h3>
+        <p>Post-launch bug fixes, walkthroughs for non-technical staff, and small ongoing changes after handoff.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block grid-bg" id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Pricing</span>
+      <h2>Starting rates.</h2>
+      <p>Rough starting points — final pricing depends on scope, timeline, and features. Message me for a free estimate.</p>
+    </div>
+    <div class="price-table">
+      <div class="price-row head">
+        <span>Package</span>
+        <span>Starting price</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name">Capstone System<span class="sub">Thesis/capstone build with documentation</span></span>
+        <span class="price-val">₱8,000 – 15,000</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name">Business Public Website<span class="sub">Custom site for your business</span></span>
+        <span class="price-val">₱5,000 – 15,000</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name">Ready to Use System For Capstone Project<span class="sub">Available For Adding Features</span></span>
+        <span class="price-val">₱15,000 - 25,000</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name">Thesis & Research Assistance<span class="sub">Thesis/Capstone Paper (Pricing, Depends on your Paper Documentaion )</span></span>
+        <span class="price-val">₱1000 - ₱10,000</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name">Pc Game Downloader<span class="sub">Can Download AAA+ Games</span></span>
+        <span class="price-val">₱399 per User</span>
+      </div>
+      <div class="price-row">
+        <span class="price-name">Custom System<span class="sub">Something else in mind?</span></span>
+        <span class="price-val">Depends on my capabilities if I can</span>
+        <span class="price-val">₱10,000 - 30,000</span>
+      </div>
+    </div>
+    <p class="price-note">All packages include source code. See "Why choose me" below for what's included by default.</p>
+  </div>
+</section>
+
+<section class="block" id="why">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Why choose me</span>
+      <h2>What every project includes.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">◆</div>
+        <div><h3>Modern UI/UX</h3><p>Clean, purposeful interfaces — not a default Bootstrap template with a new logo dropped in.</p></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">▤</div>
+        <div><h3>Mobile Responsive</h3><p>Every system is built and tested down to phone-width screens, not just desktop.</p></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">◈</div>
+        <div><h3>Secure Database</h3><p>Firestore Security Rules enforce every permission server-side — role checks aren't just cosmetic.</p></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">⚡</div>
+        <div><h3>Fast Development</h3><p>Overhead or build pipeline to fight — features ship quicker, and load quicker too.</p></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">▧</div>
+        <div><h3>Source Code Included</h3><p>You own the codebase when the project is done — no lock-in, no hidden dependency on me.</p></div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">✓</div>
+        <div><h3>After-Sales Support</h3><p>Bug fixes and walkthroughs after handoff — I don't disappear at deployment.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="contact">
+  <div class="container">
+    <div class="contact-panel">
+      <span class="eyebrow" style="justify-content:center; margin-bottom:16px;">Contact</span>
+      <h2>Let's build something that ships.</h2>
+      <p>Have a capstone deadline, a barangay office that needs to go digital, or a system that needs fixing? Send a message — I usually reply within a day.</p>
+     <div class="contact-links">
+        <a class="contact-link" href="mailto:Cabalfin.johnarman22@gmail.com?subject=Project%20Inquiry">
+          <span class="ic">✉</span>
+          <span class="txt"><strong>Email</strong><span>Cabalfin.johnarman22@gmail.com</span></span>
+        </a>
+        <a class="contact-link" href="https://web.facebook.com/johnarman.cabalfin/" target="_blank" rel="noopener">
+          <span class="ic">f</span>
+          <span class="txt"><strong>Facebook</strong><span>john​arman.cabalfin</span></span>
+        </a>
+        <a class="contact-link" href="https://m.me/johnarman.cabalfin" target="_blank" rel="noopener">
+          <span class="ic">💬</span>
+          <span class="txt"><strong>Messenger</strong><span>Chat directly</span></span>
+        </a>
+        <a class="contact-link" href="https://github.com/JohnArmanCabalfin" target="_blank" rel="noopener">
+          <span class="ic">⌥</span>
+          <span class="txt"><strong>GitHub</strong><span>JohnArmanCabalfin</span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <span class="f-name">© <span id="year"></span> John Arman Cabalfin</span>
+    <span class="f-tag">Built with HTML, CSS Tailwind &amp; JavaScript — no framework.</span>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

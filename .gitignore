@@ -1,0 +1,15 @@
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependencies (in case any tooling gets added later)
+node_modules/
+
+# Logs
+*.log

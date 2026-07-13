@@ -177,7 +177,7 @@ const projects = [
     id: "SYS_06",
     status: "LIVE",
     name: "PhoneSpecs",
-    tagline: "E-commerce phone catalog & store",
+    tagline: "E-commerce phone catalog",
     liveUrl: "https://johnarmancabalfin.github.io/ecommerce/",
     thumb: "assets/image/Ecommerce/Home.png",
     stack: ["HTML5","CSS3","JavaScript"],

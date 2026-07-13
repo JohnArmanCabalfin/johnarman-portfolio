@@ -172,6 +172,31 @@ const projects = [
       { src:"assets/image/ThesisTrack/Faculty.png", caption:"Faculty dashboard" },
       { src:"assets/image/ThesisTrack/Student.png", caption:"Student dashboard" }
     ]
+  },
+  {
+    id: "SYS_06",
+    status: "LIVE",
+    name: "PhoneSpecs",
+    tagline: "E-commerce phone catalog & store",
+    liveUrl: "https://johnarmancabalfin.github.io/ecommerce/",
+    thumb: "assets/image/Ecommerce/Home.png",
+    stack: ["HTML5","CSS3","JavaScript"],
+    roles: ["Shopper"],
+    description: "A phone catalog and storefront covering every major brand with complete spec sheets. Shoppers browse by category, filter and compare phones, view detailed product pages, and manage a shopping cart — all built with vanilla HTML, CSS, and JavaScript with no backend required.",
+    features: [
+      "Browse phones by brand and category with filtering",
+      "Detailed product pages with full spec sheets",
+      "Shopping cart with add/update/remove functionality",
+      "Responsive layout across home, categories, and product pages",
+      "Contact page for customer inquiries"
+    ],
+    screenshots: [
+      { src:"assets/image/Ecommerce/Home.png", caption:"Home page — featured phones" },
+      { src:"assets/image/Ecommerce/Categories.png", caption:"Browse by category" },
+      { src:"assets/image/Ecommerce/Phones.png", caption:"Phones listing with filters" },
+      { src:"assets/image/Ecommerce/Cart.png", caption:"Shopping cart" },
+      { src:"assets/image/Ecommerce/Contact.png", caption:"Contact page" }
+    ]
   }
 ];
 
